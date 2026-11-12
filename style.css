@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 800px;
 }
 
 #inp {
@@ -52,4 +53,22 @@ body {
   color: white;
   cursor: pointer;
   
+}
+
+
+@media (max-width:1000px)
+{
+    #cont{
+      width:90%;
+    }
+}
+
+@media(max-width:675px){
+  #btns{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #cont{
+      width:95%;
+    }
 }
